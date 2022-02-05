@@ -2,6 +2,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class JobSchedule {
+//    static List<char[]> resultArray= new ArrayList<>();
+static List<String> resultArray= new LinkedList<>();
 
     // Recursive function to print all n-digit numbers
     // whose sum of digits equals to given sum
@@ -28,6 +30,7 @@ public class JobSchedule {
             {
 //                out[index] = '\0'   ;
                 System.out.print(out);
+                resultArray.add(String.valueOf(out));
                 System.out.print(" ");
             }
             return;
@@ -57,16 +60,15 @@ public class JobSchedule {
         for (int i = 0; i <= max; i++)
         {
             out[0] = (char)(i + '0');
-//            System.out.println(out[0]);
             findNDigitNumsUtil(n, sum - i, out, 1, max);
         }
     }
 
 
-    public static List<String> findSchedules(int workHours,int dayHours, String pattern)
+    public static List<String> findSchedules(int workHours, int dayHours, String pattern)
     {
-        List<String> result= new LinkedList<>();
         int initialSum=0;
+        List<String> finalResultArray= new LinkedList<>();
         int[] initialPattern=new int[7];
         int unknownCount=0;
         List<Integer> unknownPositions =new LinkedList<>();
@@ -79,29 +81,35 @@ public class JobSchedule {
                 initialPattern[i]=0;
             }
         }
-//        System.out.println(unknownCount);
         for (int x:initialPattern
              ) {
             initialSum+=x;
         }
         if(initialSum==workHours) {
-            result.add(pattern);
-            return  result;
+            finalResultArray.add(pattern);
         }
-//        System.out.println("initialSum"+initialSum);
+        else{
         int balance=workHours-initialSum;
-//        System.out.println(balance);
 
         findNDigitNums(unknownCount,balance, dayHours);
-
-
-        return  result;
+        for (String schedule:resultArray
+        ) {
+//            System.out.println(schedule);
+            for (int i = 0; i < schedule.length(); i++) {
+//                System.out.println("string " + schedule.charAt(i));
+                initialPattern[unknownPositions.get(i)] = Integer.parseInt(String.valueOf(schedule.charAt(i)));
+//                System.out.println(initialPattern[unknownPositions.get(i)]);
+            }
+            finalResultArray.add(String.valueOf(initialPattern));
+        }
+        }
+return finalResultArray;
     }
     public static void main(String[] args) {
-        List<String> schedules = findSchedules(56, 8, "???8???");
+        List<String> schedules = findSchedules(20, 8, "?17??1?");
         for (String schedule:schedules
              ) {
-            System.out.println("schedule "+schedule);
+            System.out.println("schedule "+ schedule);
         }
     }
 }
