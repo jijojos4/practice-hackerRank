@@ -2,8 +2,19 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class JobSchedule {
-//    static List<char[]> resultArray= new ArrayList<>();
 static List<String> resultArray= new LinkedList<>();
+static String initialString;
+    static int[] initialPattern=new int[7];
+    static int unknownCount=0;
+    static List<Integer> unknownPositions =new LinkedList<>();
+
+    public static String replaceChar(char[] ch) {
+        StringBuilder myString = new StringBuilder(initialString);
+        for (int i = 0; i < unknownCount; i++) {
+        myString.setCharAt(unknownPositions.get(i), ch[i]);
+        }
+        return myString.toString();
+    }
 
     // Recursive function to print all n-digit numbers
     // whose sum of digits equals to given sum
@@ -16,7 +27,6 @@ static List<String> resultArray= new LinkedList<>();
                                    int index, int max)
     {
 
-
         // Base case
         if (index > n || sum < 0)
             return;
@@ -28,10 +38,8 @@ static List<String> resultArray= new LinkedList<>();
             // print it
             if(sum == 0)
             {
-//                out[index] = '\0'   ;
-                System.out.print(out);
-                resultArray.add(String.valueOf(out));
-                System.out.print(" ");
+//                System.out.print(out);
+                resultArray.add(replaceChar(out));
             }
             return;
         }
@@ -67,11 +75,10 @@ static List<String> resultArray= new LinkedList<>();
 
     public static List<String> findSchedules(int workHours, int dayHours, String pattern)
     {
+        initialString=pattern;
         int initialSum=0;
         List<String> finalResultArray= new LinkedList<>();
-        int[] initialPattern=new int[7];
-        int unknownCount=0;
-        List<Integer> unknownPositions =new LinkedList<>();
+
         for (int i = 0; i < pattern.length(); i++) {
             if(pattern.charAt(i)!='?'){
             initialPattern[i]=Integer.parseInt(String.valueOf(pattern.charAt(i)));}
@@ -90,23 +97,13 @@ static List<String> resultArray= new LinkedList<>();
         }
         else{
         int balance=workHours-initialSum;
-
         findNDigitNums(unknownCount,balance, dayHours);
-        for (String schedule:resultArray
-        ) {
-//            System.out.println(schedule);
-            for (int i = 0; i < schedule.length(); i++) {
-//                System.out.println("string " + schedule.charAt(i));
-                initialPattern[unknownPositions.get(i)] = Integer.parseInt(String.valueOf(schedule.charAt(i)));
-//                System.out.println(initialPattern[unknownPositions.get(i)]);
-            }
-            finalResultArray.add(String.valueOf(initialPattern));
         }
-        }
+        finalResultArray=resultArray;
 return finalResultArray;
     }
     public static void main(String[] args) {
-        List<String> schedules = findSchedules(20, 8, "?17??1?");
+        List<String> schedules = findSchedules(8, 3, "?12??2?");
         for (String schedule:schedules
              ) {
             System.out.println("schedule "+ schedule);
