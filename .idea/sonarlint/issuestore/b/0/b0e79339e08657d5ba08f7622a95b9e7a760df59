@@ -1,0 +1,39 @@
+
+`	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(«ÿ£ûÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(³Ä
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(‘œŠŸøÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(‘œŠŸøÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(„•–œ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+V	java:S125,"<This block of commented-out lines of code should be removed.(¦Ä«ìùÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(Ç·»ƒ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+U
+java:S1854W":Remove this useless assignment to local variable "result".(‘î°÷üÿÿÿÿ
+V	java:S125A"<This block of commented-out lines of code should be removed.(Øæœ€øÿÿÿÿ
+F
+java:S1481W"+Remove this unused "result" local variable.(‘î°÷üÿÿÿÿ
+V	java:S125Y"<This block of commented-out lines of code should be removed.(¢îÊùÿÿÿÿ
+Q	java:S125]"<This block of commented-out lines of code should be removed.(êË¥ì
+<
+java:S1128"&Remove this unused import 'java.math'.(âî©
+@
+java:S1128"*Remove this unused import 'java.security'.(èÛò§
+<
+java:S1128"&Remove this unused import 'java.text'.(ë¼Èí
+F
+java:S1128"1Remove this unused import 'java.util.concurrent'.(íĞ¢6
+E
+java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿
+B
+java:S1128",Remove this unused import 'java.util.regex'.(£‘¬Ş
+[
+java:S1128
+"@Remove this unused import 'java.util.stream.Collectors.joining'.(Æñ¿âşÿÿÿÿ
+v
+java:S1488*"[Immediately return this expression instead of assigning it to the temporary variable "max".(ü­¸ùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.

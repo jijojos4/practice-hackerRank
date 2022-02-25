@@ -1,0 +1,13 @@
+
+@
+java:S1197"*Move the array designators [] to the type.(³Ä
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æ–İ€ÿÿÿÿÿ
+G
+java:S1197'",Move the array designators [][] to the type.(¤ñˆÁÿÿÿÿÿ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(¾ùôŒùÿÿÿÿ
+v
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "max".(ü­¸ùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.

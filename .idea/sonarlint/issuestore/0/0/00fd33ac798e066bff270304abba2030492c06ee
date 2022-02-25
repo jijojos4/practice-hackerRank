@@ -1,0 +1,37 @@
+
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(œ€Õò
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(„üÌ¹ûÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+=
+java:S1659S""Declare "prev" on a separate line.(âòÅíøÿÿÿÿ
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(Ìƒþï
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(Ìƒþï
+T	java:S106…"9Replace this use of System.out or System.err by a logger.(©†ã„øÿÿÿÿ
+>
+java:S1659“""Declare "prev" on a separate line.(âòÅíøÿÿÿÿ
+O	java:S106ž"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+O	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ÆÀûý
+9
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD
+f	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”
+0
+java:S1220""Move this file to a named package.
+]
+java:S2259w"BA "NullPointerException" could be thrown; "prev" is nullable here.(¨•ÿ¡ûÿÿÿÿ
+~
+java:S4165ë"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(º‰¸Ùýÿÿÿÿ
+y
+java:S4165ç"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(û˜€«
+~
+java:S4165æ"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(ˆŽ¨Éùÿÿÿÿ
+~
+java:S4165é"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(éœ«áøÿÿÿÿ
+~
+java:S4165ä"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(îžß ÿÿÿÿÿ
+~
+java:S4165å"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(è€ºëùÿÿÿÿ
+y
+java:S4165ê"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(öÖòÎ
+~
+java:S4165è"bRemove this useless assignment; "list" already holds the assigned value along all execution paths.(ìÛ¶ïÿÿÿÿÿ

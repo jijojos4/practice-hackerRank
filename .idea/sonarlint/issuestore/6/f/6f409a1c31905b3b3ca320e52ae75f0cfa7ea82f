@@ -1,0 +1,30 @@
+
+`	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+`	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ª²Ïÿÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+M
+java:S1854I"7Remove this useless assignment to local variable "res".(€÷Ã
+V	java:S1251"<This block of commented-out lines of code should be removed.(Øæœ€øÿÿÿÿ
+>
+java:S1481I"(Remove this unused "res" local variable.(€÷Ã
+V	java:S125P"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ
+Q	java:S125S"<This block of commented-out lines of code should be removed.(êË¥ì
+<
+java:S1128"&Remove this unused import 'java.math'.(âî©
+@
+java:S1128"*Remove this unused import 'java.security'.(èÛò§
+<
+java:S1128"&Remove this unused import 'java.text'.(ë¼Èí
+F
+java:S1128"1Remove this unused import 'java.util.concurrent'.(íĞ¢6
+E
+java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿
+B
+java:S1128",Remove this unused import 'java.util.regex'.(£‘¬Ş
+[
+java:S1128
+"@Remove this unused import 'java.util.stream.Collectors.joining'.(Æñ¿âşÿÿÿÿ
+0
+java:S1220""Move this file to a named package.

@@ -1,0 +1,27 @@
+
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(’á²Ãúÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(àÕêåşÿÿÿÿ
+<
+java:S1128"&Remove this unused import 'java.math'.(âî©
+@
+java:S1128"*Remove this unused import 'java.security'.(èÛò§
+<
+java:S1128"&Remove this unused import 'java.text'.(ë¼Èí
+F
+java:S1128"1Remove this unused import 'java.util.concurrent'.(íĞ¢6
+E
+java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿
+B
+java:S1128",Remove this unused import 'java.util.regex'.(£‘¬Ş
+[
+java:S1128
+"@Remove this unused import 'java.util.stream.Collectors.joining'.(Æñ¿âşÿÿÿÿ
+t
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿõ´ÿÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î”Ìäùÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+g
+java:S2095Y"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ğ¢Å–şÿÿÿÿ

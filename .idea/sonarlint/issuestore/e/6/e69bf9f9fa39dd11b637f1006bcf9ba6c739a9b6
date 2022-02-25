@@ -1,0 +1,33 @@
+
+O
+java:S1118":Add a private constructor to hide the implicit public one.(ŒÅüg
+V	java:S125N"<This block of commented-out lines of code should be removed.(Šá‹ıÿÿÿÿ
+V	java:S125c"<This block of commented-out lines of code should be removed.(Øæœ€øÿÿÿÿ
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+V	java:S125l"<This block of commented-out lines of code should be removed.(Áíıµÿÿÿÿÿ
+Q	java:S125p"<This block of commented-out lines of code should be removed.(êË¥ì
+<
+java:S1128"&Remove this unused import 'java.math'.(âî©
+@
+java:S1128"*Remove this unused import 'java.security'.(èÛò§
+<
+java:S1128"&Remove this unused import 'java.text'.(ë¼Èí
+<
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ
+F
+java:S1128"1Remove this unused import 'java.util.concurrent'.(íĞ¢6
+E
+java:S1128"/Remove this unused import 'java.util.function'.(Üş’¿
+B
+java:S1128",Remove this unused import 'java.util.regex'.(£‘¬Ş
+H
+java:S1128	"-Remove this unused import 'java.util.stream'.(§æĞçøÿÿÿÿ
+[
+java:S1128
+"@Remove this unused import 'java.util.stream.Collectors.joining'.(Æñ¿âşÿÿÿÿ
+U
+java:S1128"?Remove this unused import 'java.util.stream.Collectors.toList'.(ã‚ºÎ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à’²Ìüÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€§
+0
+java:S1220""Move this file to a named package.
